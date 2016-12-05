@@ -10,4 +10,4 @@ RUN dnf erase -y vim-minimal && \
     dnf clean all 
 
 USER 1000
-CMD ["/bin/true"]
+CMD /bin/true
